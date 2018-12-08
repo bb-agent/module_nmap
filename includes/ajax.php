@@ -47,7 +47,7 @@ $exec = "/usr/bin/nmap -sS $target -p1-1024";
 $exec = "/usr/bin/nmap -sS $target -p1-1024 -oN logs/".gmdate("Ymd-H-i-s").".log";
 
 //exec("$bin_danger \"" . $exec . "\"", $dump); //DEPRECATED
-$dump = exec_fruitywifi($exec);
+$dump = exec_blackbulb($exec);
 //$dump = implode("\n",$dump);
 
 
